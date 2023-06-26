@@ -1,0 +1,38 @@
+.nav-bar{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+
+    .left-div{
+        width:10vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .right-div{
+        width: 30vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button{
+            color: gray;
+        }
+
+        img{
+            width: 5vh;
+            height: 5vh;
+            border-radius: 30%;
+        }
+    }
+}
