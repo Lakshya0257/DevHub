@@ -2,4 +2,61 @@
     width: 100vw;
     height: 100vh;
     padding: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
 }
+.circle {
+    z-index: -10;
+    position: fixed;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: rgb(166, 0, 255);
+  }
+  .circle2 {
+    z-index: -10;
+    position: fixed;
+    width: 25vw;
+    height: 25vw;
+    bottom: 10vh;
+    left: 10vw;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 251);
+  }
+  .circle3 {
+    z-index: -10;
+    position: fixed;
+    width: 20vw;
+    height: 20vw;
+    right: 25vw;
+    top: 20vh;
+    border-radius: 50%;
+    background-color: rgb(221, 0, 255);
+  }
+  .circle1 {
+    z-index: -10;
+    position: fixed;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    /* top: 15vh; */
+    /* left: 30vw; */
+    right: 0;
+    bottom: 0;
+    background-color: rgb(111, 0, 255);
+  }
+  
+  .glass {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -9;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.89);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0, 0, 0,0.1);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+  }
