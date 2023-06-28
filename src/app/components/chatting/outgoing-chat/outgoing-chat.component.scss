@@ -1,0 +1,48 @@
+.text{
+    max-width: 40vw;
+    display: flex;
+    align-items: start;
+    
+    .profile-img{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+
+        .det{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            margin-bottom: 5px;
+
+            h1{
+                margin-left: 10px;
+                font-size: .9rem;
+                font-weight: 300;
+            }
+            p{
+                font-size: .8rem;
+                color: grey;
+            }
+        }
+
+        .message{
+            padding: 10px 30px;
+            background-color: rgba(255, 255, 255, 0.114);
+            border-radius: 20px 0 20px 20px;
+            p{
+                font-size: .85rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.text{
+    max-width: 40vw;
+    display: flex;
+    align-items: start;
+    
+    .profile-img{
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+
+        .det{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-bottom: 5px;
+
+            h1{
+                margin-right: 10px;
+                font-size: .9rem;
+                font-weight: 300;
+            }
+            p{
+                font-size: .8rem;
+                color: grey;
+            }
+        }
+
+        .message{
+            padding: 10px 30px;
+//             background: rgb(34,34,34);
+// background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(5,0,42,1) 24%, rgba(36,0,40,1) 58%, rgba(28,0,33,1) 100%);
+            background-color: blue;
+            border-radius: 0 20px 20px 20px;
+            p{
+                font-size: .85rem;
+            }
+        }
+    }
+}
