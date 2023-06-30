@@ -4,8 +4,9 @@
   <div class="circle2"></div>
   <div class="circle3"></div>
 </div>
+<div class="animate-div" id="a1d"></div>
 <div class="glass"></div>
 <div class="app">
-  <app-nav-bar></app-nav-bar>
-<app-chatting></app-chatting>
+  <app-nav-bar (navigate)="toggleHeight()"></app-nav-bar>
+<app-chatting ></app-chatting>
 </div>

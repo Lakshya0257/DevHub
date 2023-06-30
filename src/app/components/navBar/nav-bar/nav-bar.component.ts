@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent {
+  @Output() navigate = new EventEmitter<void>();
 
+  navigation() {
+    // Function to be called when the button is clicked in the child component
+    this.navigate.emit();
+  }
 }
